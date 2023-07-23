@@ -20,7 +20,8 @@ fn main() {
                 func(args[1..].to_vec());
             } else {
                 println!("The number must be between 0 and 99.")
-            }},
+            }
+        }
         Err(_) => {
             println!("Invalid integer argument provided.")
         }
