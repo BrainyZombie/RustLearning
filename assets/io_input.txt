@@ -1,0 +1,3 @@
+test file to read data
+and test whether our program works.
+This is just a test to see how many times the word test is found.
