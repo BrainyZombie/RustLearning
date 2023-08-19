@@ -17,7 +17,7 @@ fn main() {
         Ok(num) => {
             if num <= 99 {
                 let func: fn(Vec<String>) = mains[num];
-                func(args[1..].to_vec());
+                func(args[2..].to_vec());
             } else {
                 println!("The number must be between 0 and 99.")
             }
